@@ -74,7 +74,7 @@ pip install -r requirements.txt
 ### Running the Dashboard
 
 ```bash
-streamlit run app.py
+streamlit run app23.py
 ```
 
 The dashboard will automatically open in your default web browser at `http://localhost:8501`
@@ -170,7 +170,7 @@ Simple passive investment approach:
 
 ### Change Authentication Password
 
-Edit line 30 in `app.py`:
+Edit line 30 in `app23.py`:
 ```python
 if password == "your_secure_password":  # Change this
 ```
@@ -293,7 +293,7 @@ enableCORS = false\n\
 
 Create `Procfile`:
 ```
-web: sh setup.sh && streamlit run app.py
+web: sh setup.sh && streamlit run app23.py
 ```
 
 Deploy:
