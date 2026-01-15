@@ -1,4 +1,4 @@
-# 📈 NIFTY 50 Quantitative Dashboard
+# NIFTY 50 Quantitative Dashboard
 
 A comprehensive web-based quantitative analysis dashboard for the NIFTY 50 index, built with Streamlit. This tool provides institutional-grade risk metrics, strategy backtesting, and performance analytics for traders and quantitative analysts.
 
@@ -6,7 +6,7 @@ A comprehensive web-based quantitative analysis dashboard for the NIFTY 50 index
 ![Streamlit](https://img.shields.io/badge/streamlit-1.28+-red.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-## 🌟 Features
+## Features
 
 ### Market Analysis
 - **Real-time Price Data**: Fetches historical NIFTY 50 data via Yahoo Finance
@@ -38,7 +38,7 @@ A comprehensive web-based quantitative analysis dashboard for the NIFTY 50 index
 - **Interactive Controls**: Real-time parameter adjustments via sidebar
 - **Professional Visualizations**: Clean, publication-ready charts
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -85,9 +85,9 @@ The dashboard will automatically open in your default web browser at `http://loc
 Password: quant123
 ```
 
-⚠️ **Important**: Change the default password in the code before deploying to production!
+ **Important**: Change the default password in the code before deploying to production!
 
-## 📦 Dependencies
+## Dependencies
 
 Create a `requirements.txt` file with the following packages:
 
@@ -106,7 +106,7 @@ Install all dependencies:
 pip install -r requirements.txt
 ```
 
-## 🎯 Usage Guide
+## Usage Guide
 
 ### 1. Authentication
 - Enter the password (default: `quant123`) to access the dashboard
@@ -141,7 +141,7 @@ The dashboard displays:
 - Rolling VaR visualization
 - Monte Carlo stress test scenarios
 
-## 📊 Strategy Details
+## Strategy Details
 
 ### Momentum Strategy
 
@@ -166,7 +166,7 @@ Simple passive investment approach:
 - Buy and hold the NIFTY 50 index throughout the analysis period
 - Serves as the benchmark for comparison
 
-## 🔧 Customization
+## Customization
 
 ### Change Authentication Password
 
@@ -207,7 +207,7 @@ ax.plot(..., color='your_color', linewidth=2)
 ax.set_title('Your Title')
 ```
 
-## 📈 Performance Metrics Explained
+## Performance Metrics Explained
 
 | Metric | Description | Interpretation |
 |--------|-------------|----------------|
@@ -221,7 +221,7 @@ ax.set_title('Your Title')
 | **Beta** | Sensitivity to market moves | >1 = more volatile than market |
 | **R²** | Correlation with benchmark | 1 = perfectly correlated |
 
-## 🔒 Security Considerations
+## Security Considerations
 
 **For Production Deployment:**
 
@@ -242,7 +242,7 @@ password = os.environ.get('DASHBOARD_PASSWORD')
 
 5. **Implement user session management**
 
-## 🚀 Deployment
+## Deployment
 
 ### Streamlit Cloud (Free)
 
@@ -302,14 +302,14 @@ heroku create your-app-name
 git push heroku main
 ```
 
-## 📝 Data Sources
+## Data Sources
 
 - **NIFTY 50 Data**: Yahoo Finance (^NSEI)
 - **Interest Rate Data**: 10-Year Treasury Note (^TNX)
 - **Data Frequency**: Daily close prices
 - **Adjustment**: All prices are adjusted for splits and dividends
 
-## ⚠️ Limitations & Disclaimers
+## Limitations & Disclaimers
 
 1. **Historical Data Only**: Past performance does not guarantee future results
 2. **No Transaction Costs**: Backtests do not include commissions, slippage, or taxes
@@ -319,7 +319,7 @@ git push heroku main
 
 **Disclaimer**: This dashboard is provided "as-is" without any warranties. The authors are not responsible for any trading losses incurred from using this tool. Always consult with a qualified financial advisor before making investment decisions.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -337,13 +337,13 @@ Contributions are welcome! Please follow these steps:
 - Add email alerts for signals
 - Implement portfolio optimization
 
-## 📧 Contact & Support
+## Contact & Support
 
 - **Issues**: [GitHub Issues](https://github.com/yourusername/nifty50-quant-dashboard/issues)
 - **Email**: your.email@example.com
 - **Twitter**: [@yourhandle](https://twitter.com/yourhandle)
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
@@ -371,14 +371,14 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [Streamlit](https://streamlit.io/) - For the amazing framework
 - [yfinance](https://github.com/ranaroussi/yfinance) - For market data access
 - [Statsmodels](https://www.statsmodels.org/) - For statistical modeling
 - [Matplotlib](https://matplotlib.org/) - For visualization capabilities
 
-## 📚 Resources
+## Resources
 
 ### Learn More About Quantitative Trading
 - [Quantitative Trading Strategies](https://www.quantstart.com/)
@@ -391,7 +391,3 @@ SOFTWARE.
 - [Streamlit Community](https://discuss.streamlit.io/)
 
 ---
-
-**Made with ❤️ for the quantitative trading community**
-
-*Star ⭐ this repository if you find it helpful!*
