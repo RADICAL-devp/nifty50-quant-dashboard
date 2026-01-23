@@ -337,12 +337,6 @@ Contributions are welcome! Please follow these steps:
 - Add email alerts for signals
 - Implement portfolio optimization
 
-## Contact & Support
-
-- **Issues**: [GitHub Issues](https://github.com/yourusername/nifty50-quant-dashboard/issues)
-- **Email**: your.email@example.com
-- **Twitter**: [@yourhandle](https://twitter.com/yourhandle)
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
